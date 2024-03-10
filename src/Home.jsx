@@ -4,7 +4,7 @@ function Home() {
     return (
         
         <article>
-            <h1>Notes</h1>
+            <h1>Notes for Semester 1 subjects</h1>
         </article>
     )
 }
