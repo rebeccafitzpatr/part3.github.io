@@ -4,7 +4,11 @@ function App() {
     return (
         
         <article>
+            <h2> These are notes for Semester 1 subjects</h2>
             <Navbar/>
+            
+            
+            
         </article>
     )
 }
