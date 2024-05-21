@@ -4,6 +4,7 @@ import { Link} from "react-router-dom";
 function Msnotes() {
     return (
         <article>
+            <h3>Many more notes for the Microsoft technologies can be found on Microsoft Learn</h3>
             <h2>Notes for C#</h2>
             <p>Console is a class with methods such as Write(), WriteLine()</p>
             <br/> <p>A literal value is a constant, and usually hardcoded - it never changes. When thinking about strings, "" marks string literals, '' marks char literal. Int literal requires neither. Float literal needs F after the number, bool literal is either true or false.</p>
@@ -12,6 +13,9 @@ function Msnotes() {
             <br /> <p>Verbatim string literal using @ keeps all white space and character. Add encoded characters using \u followed by Unicode. String interpolation use {} curly brackets and put the value inside them. We can use string interpolation to combine many types of variables in an intuitive way. </p>
             <br /> <p>String concatenation: combine two or more strings using + symbol.</p>
 
+            <h2> Using .NET</h2>
+            <p>.NET Runtime hosts/manages your code as it executes on the end user's computer.</p>
+            <br /> <p>.NET Class library contains many useful methods. Also you need to create an instance of the class in order to use the methods.Stateful methods rely on values in memory at runtime. Stateless methods(static methods) can work without referring to outher values.</p>        
         </article>
     )
 }
