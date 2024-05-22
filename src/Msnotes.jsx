@@ -15,8 +15,9 @@ function Msnotes() {
 
             <h2> Using .NET</h2>
             <p>.NET Runtime hosts/manages your code as it executes on the end user's computer.</p>
-            <br /> <p>.NET Class library contains many useful methods. Also you need to create an instance of the class in order to use the methods.Stateful methods rely on values in memory at runtime. Stateless methods(static methods) can work without referring to outher values.</p>
-            <p></p>
+            <br /> <p>.NET Class library contains many useful methods. Also you need to create an instance of the class in order to use the methods.Stateful methods rely on values in memory at runtime. Stateless methods(static methods) can work without referring to outher values.</p>   
+            <br /><p>Arrays are sequences of individual data elements accessible through a single variable name. We need to declare with the data type and size of array. We can iterate through the elements of the array with the foreach operator:  foreach(int items in inventory) {}  </p> 
+            <br/> <p></p>
         </article>
     )
 }
