@@ -16,6 +16,8 @@ function Linguist() {
                 <h2>SYNTAX - the study of the accepted order of words in a language's sentences (traditionally called grammar)</h2>
                 <p>Languages have infinite potential for creativity and variation; this lends to the fact that language rules are not permanent. Furthermore syntax should not be confused with prescriptive rules or the assertion of what is 'proper' in grammar. Linguistic study is focused on how language is used, whether or not it is proper is not vital.</p>
                 <br/> <p><b>Word Classes:</b> All words in any language are either open class or closed class</p>
+                <br/> <p> Open class regularly have new words and meanings added. These are content words which label things, actions, qualities e.g nouns and verbs.</p>
+                <br/> <p> Closed class are rarely added to, however it is possible. The closed classes mostly provide important syntactic function (tense, number) rather than semantic substance. They are the grammatical glue that glue content words together. Furthermore, closed class words may become obsolete. </p>
             </article>
 
         </article>
