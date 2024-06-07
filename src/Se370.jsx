@@ -41,6 +41,8 @@ function Se370() {
         <br/> <p>Virtual Memory: Every user program thinks that they have unlimited memory. They cannot see the other programs memory content by default. A virtual address is mapped into physical address by hardware.</p>
         <br/> <p>File management: using tree like structure, data integrity checks compression, security.</p>
         <br/> <p>Security: user authentication, access control, encryption, firewall</p>
+
+        <br/><p>Modern operating systems encompass features such as multitasking, virtual memory, file systems and security mechanisms to meet the diverse requirements of contemporary computing environments.</p>
         
         </article>
     )
