@@ -4,7 +4,7 @@ function Se370() {
         <article>
 
 
-        <h3>These are SOFTENG370 notes for 2024</h3>
+        <h2>These are SOFTENG370 notes for 2024</h2>
 
         <ul>
             <li>Introduction</li>
@@ -14,7 +14,7 @@ function Se370() {
             <li>CPU Scheduling and Deadlock and Assignment 2</li>
         </ul>
 
-        <h4>Introduction to OS </h4>
+        <h3>Introduction to OS </h3>
         <p>An OS is a special software that acts as the intermediary between the user applications of the computer and the computer hardware. The purpose of an operating system is to provede an environment where the user can execute programs in a convenient and efficient manner.</p> <br/>
         <p>OS achieves this by abstracting specific hardware details such as specific sound cards or disks, thereby simplifying communication between software applications and the underlying hardware components.OS also provides commonly used services i.e file management, networking, process management</p> <br/>
 
@@ -44,6 +44,9 @@ function Se370() {
 
         <br/><p>Modern operating systems encompass features such as multitasking, virtual memory, file systems and security mechanisms to meet the diverse requirements of contemporary computing environments.</p>
         
+
+        <h3>OS programming language</h3>
+        <p>Many modern operating systems implement loadable kernel modules.</p>
         </article>
     )
 }
