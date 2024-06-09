@@ -13,7 +13,8 @@ function Se370() {
             <li>Concurrency and Deadlocks</li>
             <li>CPU Scheduling and Deadlock and Assignment 2</li>
         </ul>
-
+        
+        <h2>Introduction</h2>
         <h3>Introduction to OS </h3>
         <p>An OS is a special software that acts as the intermediary between the user applications of the computer and the computer hardware. The purpose of an operating system is to provede an environment where the user can execute programs in a convenient and efficient manner.</p> <br/>
         <p>OS achieves this by abstracting specific hardware details such as specific sound cards or disks, thereby simplifying communication between software applications and the underlying hardware components.OS also provides commonly used services i.e file management, networking, process management</p> <br/>
@@ -46,7 +47,14 @@ function Se370() {
         
 
         <h3>OS programming language</h3>
-        <p>Many modern operating systems implement loadable kernel modules.</p>
+        <p>Many modern operating systems implement loadable kernel modules to easily extend functionality. These can be loaded and unload upon demand. Each module can talk to others over known interfaces. In Linux, modules are called kernel modules. Linux kernel modular design allows us to adda device driver to control LED lights, add device driver to adulterate GPS locations, add a filesystem, network protocol.... In Windows environment, these are kernel drivers. A Windows driver example is the anticheat.</p>
+        <br/><p>C is the defacto language for OS development, originally designed to build Unix. C supports low-level memory access so C statements can easily be mapped into machine instructions.</p>
+        <p>A <b>C pointer </b>is a variable to store a memory address of another variable. Actual address can be stored in a pointer and then used to access content over there. However, accessing an invalid pointer causes issues. In the user space, this will result in <b>segment fault</b>. In kernel mode, this can be fatal -- leading to <b>kernel panic</b> and the blue screen of death</p>
+
+        <br/> <p> Depending on where you declare a variable, it will be placed in different regions of the memory and have a different life span. EG <b>local variables</b> for a function are allocated on the stack when the function is entered. Local variables are gone after the function finishes execution. <b>Global variables</b> are allocated in data area when the program is started, and only released when the program exits. <b>Static variables</b> in the function are allocated when the program starts, only released when the program exits. <b>Dynamic memory</b> does not have a fixed size. To allocate dynamic sized memory use <i>malloc</i> and free it using <i>free</i>. Used the keyword <b>register</b> to hint that a variable  should be kept in a processor register to reduce data access latency. i.e <i>register int number = 1234</i> . But this does not guarantee that the value will be stored in the register, the compiler may choose otherwise because they are often better than human at memory allocation decisions. The keyword <b>volatile</b> is used to specify that a variable may change unexpectedly so it tells the compiler to not do any optimizations on that variable. <b>Rust</b> is an emergin language for OS programming. It does not allow invalid pointer access == memory safe.</p>
+
+        <h2>Virtual Machine, A1 and Process Creation.</h2>
+        <h3>Linux, Virtual Machine</h3>
         </article>
     )
 }
