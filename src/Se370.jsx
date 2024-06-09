@@ -75,6 +75,13 @@ function Se370() {
         <br/><p><b>exec()</b> replaces the current process' memory to a new program. <b>exit()</b> terminates the current process immediately. <b>wait()</b> allows the parent process to wait for a child process from parent process. A call to wait() blocks the calling process until its child processes exits or a signal is received. After child process terminates, parent continues its execution.<b>kill()</b> can be used to terminate a child process from a parent process.</p>
 
         <br/><p>The fork-exec paradigm creates a tree of processes in Linux. The root node is called init process. If a parent process dies, all children become orphaned. They may be adopted by the init process. If a child process is not adopted and the process terminates, it becomes a zombie, this may cause resource leak. Fork bomb duplicates itself to deplete all the system resources.</p>
+
+        <h2>Processes and Threads</h2>
+        <h3>Inter Process Communication</h3>
+        <p>Multiprocessing allows the execution of multiple tasks or processes concurrently. This can potentially improve the computational speed. By running processes in separate memory spaces, Multiprocessing helps in isolating faults. If one process encounters an issue, it is less likely to affect other processes, contributing to increased system stability.</p>
+        <br/>
+        <p>Processes are independent, each process in the modern operating system operates independently by default. SO processes do not interfere with each other's execution. Each process has its own address space. Processes cannot directly access each other's memory. Two common ways of doing inter-process communication. One is message passing, the other is shared memory.</p>
+        <br/><p><b>Pipe</b> is a message passing mechanism. It is used for parent and child process communication. Reading process blocks when pipe is empty (until data becomes available) and writing process blocks when the pipe is full. Process reads from a broken pipe gets an EOR, a process writing to a pipe with no reader gets signalled and killed. <b>Named pipes </b> are more powerful. And it does not requrie a parent-child relationship. Several processes can use the named pipe for communication and it is also available in windows. Pipe and filter pattern decomposes a task that performs complex processing into a series of separate element that can be reused. In shel, we have '|' pipe operator.</p>
         </article>
     )
 }
