@@ -18,6 +18,11 @@ function Msnotes() {
             <br /> <p>.NET Class library contains many useful methods. Also you need to create an instance of the class in order to use the methods.Stateful methods rely on values in memory at runtime. Stateless methods(static methods) can work without referring to outher values.</p>   
             <br /><p>Arrays are sequences of individual data elements accessible through a single variable name. We need to declare with the data type and size of array. We can iterate through the elements of the array with the foreach operator:  foreach(int items in inventory) {}  </p> 
             <br/> <p>Conditional operator -- evaluate this condition ? if condition is true,return this value : if condition is false, return this value </p> <p>Variable scope refers to a variable's visibility to other code</p>
+
+            <br/>
+
+            <h2>Working with variable data</h2>
+            <p>C# relies on data types extensively. Data types restrict the kinds of values that can be stored in a given variablem which can be helpful when trying to create error free code. As developers we want to have confidence that our variables only store valid values. <b>Signed integral types:</b> sbyte -128 to 127, short -32768 to 32767, int -2147483648 to 2147483647, long. <b>Unsigned integral types: </b> byte, ushort, uint, ulong. <b>Reference types: </b> include arrays, classes, and strings, and are treated differently from value types regarding the way values are stored when the application is executing. Value types are stored directly to the stack. Reference types are stored in a separate area called the heap.</p>
         </article>
     )
 }
