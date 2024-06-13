@@ -32,6 +32,16 @@ function Se351() {
                 <li><p>Implementation data models: representational</p><p>Concepts are between these above described, relational data models</p></li>
                 <li><p>Self-describing data models: </p><p>Combine description of the data with their values, e.g XML, key-value</p></li>
             </ul>
+
+            <h3>Basic SQL</h3>
+
+            <p>SQL Data Definition and Data Types: using CREATE SCHEMA name, CREATE TABLE name (ATTRIBUTES), INSERT INTO-VALUES, DELETE FROM-WHERE, UPDATE-SET-WHERE </p>
+            <br/>
+            <p>Retrievals using SELECT-FROM-WHERE structure, we can make it more specific using the substring pattern matching/arithmetic operation techniques e.g 'WHERE date LIKE '____9__'. We can display the results of a query in a particular order using SELECT-FROM-WHERE-ORDER BY</p>
+
+            <h3>More SQL: Complex queries, aggregate functions, triggers, views, and schema modification</h3>
+            <p>Nested queries, correlated nest queries, joining tables and outer joins.</p>
+            <p>Grouping: SELECT-FROM-GROUP BY,SELECT-FROM-WHERE-GROUPBY, SELECT-FROM-WHERE-GROUP BY-HAVING</p>
         </article>
         
 
