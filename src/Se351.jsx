@@ -47,6 +47,14 @@ function Se351() {
             <p>The basic set of operations for the formal relational model is the relational algebra. Also relational algebra forms the basis to optimise queries. <b>sigma</b> -selection condition- (Relation), <b>project</b> -attribute list- (Relation), <b>rho</b> -rename operation</p>
             <br/>
             <p>Union, Intersection, Minus, Cartesian Product, Join, Division . Generalised projection, Aggregate Function</p>
+
+            <h3>Basics of Functional Dependencies + Normalisation</h3>
+            <p>So far we have assumed that attributes are grouped to form a relation schema, however we still need a formal way of analysing why one grouping of attributes may be better than another. -- Theory of evaluating relational schema for design quality, and we can discuss relation schema quality at the logical level vs the implementation/physical storage level. Furthermore, database design may be performed using either the bottom-up design methodology or top-down design. The relations are then analysed individually and collectively, leading to further decomposition. Relational database design ultimately produces a set of relations. The implicit goals of the design activity are information preservation and minimum redundancy. The relational design must capture all of the concepts: attribute types, entity types, relationship types + generalisation/specialisation relationships. Four measures of relation schema design quality: making sure that the semantics of the attributes is clear in the schema, reducing the redundant information in tuples, reducing the null values in tuples, disallowing the possibility of generating spurious tuples.</p>
+
+            <br/>
+            <p>Imparting clear semantics to attributes in relations: whenever we group attributes to form a relation schema we assume that attributes belonging to one relation have certain real-world meaning and proper interpretation associated with them. Semantics of a relation refers to its meaning resulting from the interpretation of attribute values int a tuple. Usually, the easier it is to explain the semantics of the relation, the better the relation schema design is. Guideline 1: design a relation schema so that it is easy to explain its meaning. Do not combine attributes from multiple entity types and relationship types into a single relation. Furthermore it is easier to explain meaning when a relation schema corresponds to only one entity type rather than multiple entities and relationships.</p>
+
+            
         </article>
         
 
