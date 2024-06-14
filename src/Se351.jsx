@@ -81,6 +81,8 @@ function Se351() {
             <br/>
             <p><b>General definitions</b> 1NF: relation should have no multivalued attribute or nested relations. 2NF: For relations where primary key contains multiple attributes, no nonkey attribute should be functionally dependent on a part of the primary key. 3NF: Relation should not have a monkey attribute functionally determined by another nonkey attribute(or by a set of nonkey attributes). That is, there should be no transitive dependency of a nonkey attribute on the primary key.</p>
 
+            <p>Boyce-codd normal form, multivalued dependency and fourth normal form, join dependencies and fifth normal form</p>
+
         </article>
         
 
