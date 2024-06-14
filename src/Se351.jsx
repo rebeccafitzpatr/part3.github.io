@@ -42,6 +42,11 @@ function Se351() {
             <h3>More SQL: Complex queries, aggregate functions, triggers, views, and schema modification</h3>
             <p>Nested queries, correlated nest queries, joining tables and outer joins.</p>
             <p>Grouping: SELECT-FROM-GROUP BY,SELECT-FROM-WHERE-GROUPBY, SELECT-FROM-WHERE-GROUP BY-HAVING</p>
+
+            <h3>Relational Algebra, Relational Calculus</h3>
+            <p>The basic set of operations for the formal relational model is the relational algebra. Also relational algebra forms the basis to optimise queries. <b>sigma</b> -selection condition- (Relation), <b>project</b> -attribute list- (Relation), <b>rho</b> -rename operation</p>
+            <br/>
+            <p>Union, Intersection, Minus, Cartesian Product, Join, Division . Generalised projection, Aggregate Function</p>
         </article>
         
 
