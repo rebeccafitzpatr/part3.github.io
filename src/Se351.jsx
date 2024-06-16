@@ -81,7 +81,11 @@ function Se351() {
             <br/>
             <p><b>General definitions</b> 1NF: relation should have no multivalued attribute or nested relations. 2NF: For relations where primary key contains multiple attributes, no nonkey attribute should be functionally dependent on a part of the primary key. 3NF: Relation should not have a monkey attribute functionally determined by another nonkey attribute(or by a set of nonkey attributes). That is, there should be no transitive dependency of a nonkey attribute on the primary key.</p>
 
-            <p>Boyce-codd normal form, multivalued dependency and fourth normal form, join dependencies and fifth normal form</p>
+            <br/>
+            <p>Proper inforcement of the guidelines, will ensure lack of redundancy, avoid insertion/deletion/update anomalies, and generation of spurious data. Functional dependency is the basic tool for analysing relational schemas, they specify semantic constraints among the attributes of a relation schema. Normalisation process for achieving good schema designs, tests relations for undesirable types of problematic functional dependencies. </p>
+
+
+            <p>Boyce-codd normal form is a stronger form of 3NF. multivalued dependency and fourth normal form, join dependencies and fifth normal form</p>
 
         </article>
         
