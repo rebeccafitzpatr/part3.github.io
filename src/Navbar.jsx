@@ -7,6 +7,8 @@ import Se370 from './Se370';
 import Cs373 from './Cs373';
 import Eg303 from './Eg303';
 import Msnotes from './Msnotes';
+import Dsa from './Dsa';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function Navbar() {
     return (
@@ -18,12 +20,13 @@ function Navbar() {
             <li><Link to = "se351"><h4>SOFTENG351</h4></Link></li>
             <li><Link to = "se370"><h4>SOFTENG370</h4></Link></li>
             <li><Link to = "cs373"><h4>COMPSCI373</h4></Link></li>
+            
 
             
             <h2>Extra curricular notes</h2>
             <li><Link to = "msnotes"><h4>Microsoft Tech Stack</h4></Link></li>
 
-            
+            <li><Link to = "dsa"><h4>DSA</h4></Link></li>
                 
                 <Routes>
                     
@@ -34,6 +37,7 @@ function Navbar() {
                     <Route path = "/se370" element = {<Se370 />} />
                     <Route path = "/cs373" element = {<Cs373 />} />
                     <Route path = "/msnotes" element = {<Msnotes />} />
+                    <Route path = "/dsa" element = {<Dsa />}/>
                    
                     
                 </Routes>
