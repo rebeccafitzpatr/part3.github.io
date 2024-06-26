@@ -22,6 +22,12 @@ function Dsa() {
         <p>Quicksort idea: Take the last element, and partition the array around it. Time complexity = worst case: theta(n2), there exists theta(nlogn) solution. Average case with random pivot = O(nlogn) <b>Welcome to the world of randomised algorithms</b></p>
 
         <h3>Week 3: Quick Select</h3>
+        <p>Binary search meets Quick sort. Given an unsorted array A of length n and an integer k greater than or equal to 1, k less than or equal to n, retur the kth smallest element in A. In the average case O(n), worst case O(n^2)</p>
+        <br/>
+        <p>Counting sort and Engineer's approach to sorting - what goes into java.util.Arrays.sort() ? Sorting by comparison, so far we have been sorting integers, but all we actually do is comparing them. We could then as well sort an array of objects assuming each two elements are comparable. Exercise, implement inbuilt sorting functions using sorting algorithms we have learnt. Is it possible to sort in O(n) yes and no - it depends. Count how many times each number appears and reconstruct the array in sorted order. Count how many elements of each type we have - counting sort.</p>
+
+        <br/> 
+        <p>Data Structure: Linked List. Can be implemented with array, if it is guaranteed that the user will never add more than n elements. This implementation has excellent running time, but fixed maximum size and too much memory if we only end up adding small number of elements. We can create Node class and keep the order with pointers.</p>
 
         </article>
     )
