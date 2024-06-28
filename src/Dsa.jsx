@@ -29,6 +29,9 @@ function Dsa() {
         <br/> 
         <p>Data Structure: Linked List. Can be implemented with array, if it is guaranteed that the user will never add more than n elements. This implementation has excellent running time, but fixed maximum size and too much memory if we only end up adding small number of elements. We can create Node class and keep the order with pointers.</p>
 
+        <h3>Week 4: Double Linked List and Dynamic Arrays.</h3>
+        <p>Linked list operations : add and size O(1), remove, get and set are O(n). Double linked list has the same operations however, remove is O(1). <b>Dynamic arrays</b> - Arrays are excellent for get/set operations. Maximum capacity is determined upon creation. Idea - If we have reached the capacity, create a new array with double the capacity and copy the current content. Assuming the collection has already n elements what is the worst case running time of the next operation? add O(n) and remove, get, set, size O(1). Amortised Complexity. Dynamic Array has add operation in O(1) amortised. <b>Issue:</b> If our list gorws to size n and then we remove all but a few elements, we are still using n memory cells. In Java/C++/Rust, add an operation which shrinks the storage to the current size of the list, which is the user's responsibility. In Python, automatically shrink the storage.</p>
+
         </article>
     )
 }
