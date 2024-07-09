@@ -46,7 +46,11 @@ function Dsa() {
         <p>List, Set and Map interfaces: List, we care about the order in which elements are added. Add and remove from the end of the list and random access in a Dynamic Array are fast. However add/remove from the middle of the list and checking if an element is present in the list is slow. Set, we care whether an element is present but not when it was added. Map(Dictionary), we care if an element is present and what is its associated value. Usually Set and Map do not have duplicates. Set interface has add, remove and contains methods. Map methods: put, get, contains, removeKey. A Map can be a Set, but a Set cannot make a Map, however if we can tell whether an element is present, it sounds plausible that wihtout any additional effort we can find out its mapped value. <b>Set via List:</b> store all the elements in a list: add(key) O(1) adds the key to the end of the list, contains(key) O(n) iterate through the list and check if the key is there, remove(key):O(n) removes all occurrent of the key from the list. <b>Set via List version 2:</b> store all the elements in a sorted list - DynamicArray. add(key): add the key to the list such that it remains sorted O(n), contains(key): binary search O(logn), remove(key) remove the key from the list O(n)</p>
 
         <br/>
-        <p>Binary search tree gymnastics:</p>
+        <p>Binary search tree gymnastics: contains, add, remove with no descendants, one child, two children</p>
+        <br/> 
+        <p>Implementing remove is slightly tricky. P1. Find the max/min key in a BST, P2. Given a node in a BST, find the node with the next larger key - two cases: node.right is not null, node.right is null P3.</p>
+        <br/>
+        <p>Rotations, rotation strategies for AVL trees, Red-Black trees, Splay trees.</p>
         </article>
     )
 }
