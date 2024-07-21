@@ -23,7 +23,7 @@ function Navbar() {
             <li><Link to = "cs373"><h4>COMPSCI373</h4></Link></li>
             
             <h2>SEM 2</h2>
-            <li><Link to = "se325"><h4>Microsoft Tech Stack</h4></Link></li>
+            <li><Link to = "se325"><h4>SOFTENG 325n</h4></Link></li>
             
             <h2>Extra curricular notes</h2>
             <li><Link to = "msnotes"><h4>Microsoft Tech Stack</h4></Link></li>
